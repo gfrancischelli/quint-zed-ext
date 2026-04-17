@@ -1,0 +1,11 @@
+id = "quint"
+name = "Quint"
+description = "Syntax highlighting for the Quint specification language."
+version = "0.1.0"
+schema_version = 1
+authors = ["gfrancischelli"]
+repository = "https://github.com/gfrancischelli/quint-zed-ext"
+
+[grammars.quint]
+repository = "https://github.com/gruhn/tree-sitter-quint"
+commit = "e413b1b57849a0097478548b25fcae2f3d0171d1"
