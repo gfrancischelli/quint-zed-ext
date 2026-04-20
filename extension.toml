@@ -1,7 +1,7 @@
 id = "quint"
 name = "Quint"
 description = "Syntax highlighting and language server support for the Quint specification language."
-version = "0.2.0"
+version = "0.3.0"
 schema_version = 1
 authors = ["gfrancischelli"]
 repository = "https://github.com/gfrancischelli/quint-zed-ext"
