@@ -1,0 +1,13 @@
+[package]
+name = "zed_quint"
+version = "0.2.0"
+edition = "2021"
+license = "Apache-2.0"
+publish = false
+
+[lib]
+path = "src/quint.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"

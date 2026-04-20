@@ -1,3 +1,6 @@
 grammars/
+target/
+Cargo.lock
+extension.wasm
 .claude/
 .DS_Store
