@@ -1,7 +1,7 @@
 id = "quint"
 name = "Quint"
 description = "Syntax highlighting and language server support for the Quint specification language."
-version = "0.3.0"
+version = "0.4.0"
 schema_version = 1
 authors = ["gfrancischelli"]
 repository = "https://github.com/gfrancischelli/quint-zed-ext"
@@ -13,3 +13,7 @@ commit = "e413b1b57849a0097478548b25fcae2f3d0171d1"
 [language_servers.quint-language-server]
 name = "Quint Language Server"
 languages = ["Quint"]
+
+[[capabilities]]
+kind = "npm:install"
+package = "@informalsystems/quint-language-server"
